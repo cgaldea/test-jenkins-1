@@ -1,7 +1,7 @@
 From alpine
 
 RUN apk update
-RUN apk add  bash python python-dev  py-pip py-virtualenv py-flask  util-linux
+RUN apk add  bash python python-dev  py-pip py-virtualenv py-flask  util-linux py3-more-itertools
 RUN mkdir /opt/app
 #RUN bash
 COPY src/*  /opt/app/
